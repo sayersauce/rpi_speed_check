@@ -12,10 +12,10 @@ def check():
 
 def send(speed):
 	mydb = mysql.connector.connect(
-		host = 'localhost',
-		user = 'admin',
-		passwd = 'raspberry',
-		database = 'mydb'
+		host = '',
+		user = '',
+		passwd = '',
+		database = ''
 	)
 
 	mycursor = mydb.cursor()
